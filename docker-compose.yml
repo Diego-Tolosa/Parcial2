@@ -1,7 +1,6 @@
+version: '3'
 services:
-  springboot-sqlite-demo:
-    build:
-      context: .
-      dockerfile: Dockerfile
+  maven-app:
+    build: .
     ports:
       - "8080:8080"
